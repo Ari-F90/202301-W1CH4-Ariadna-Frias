@@ -72,20 +72,18 @@ select :first-child {
   background-color: orangered;
 }
 
-section > div {
-  font-weight: bold;
-}
-
 .pet {
   color: orangered;
   position: relative;
   margin-top: 50px;
-  font-size: bold;
+  font-weight: bold;
 }
+
 .images {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 section > img {
