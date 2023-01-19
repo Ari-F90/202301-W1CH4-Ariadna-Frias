@@ -1,9 +1,26 @@
+@import url(https://fonts.googleapis.com/css2?family=Nunito:wght@200;800&display=swap);
+
 * {
   box-sizing: border-box;
 }
 
 body {
   font-family: "Nunito", sans-serif;
+}
+
+nav {
+  display: flex;
+}
+
+ul {
+  display: flex;
+}
+nav:first-child {
+  flex-flow: flex-start;
+}
+
+nav:second-child {
+  flex-flow: flex-end;
 }
 
 nav > section {
@@ -14,7 +31,19 @@ nav > section {
 
 li {
   list-style: none;
-  font-weight: 8000;
+  font-weight: 800;
+}
+
+li:hover {
+  color: orange;
+}
+
+select:first-child {
+  font-weight: 800;
+}
+
+select:first-child:hover {
+  color: orange;
 }
 
 select {
@@ -37,8 +66,15 @@ select :first-child {
 }
 
 .buy {
-  border-radius: 50%;
+  border-radius: 0 50% 50% 50%;
   border: 2px solid orangered;
+  font-weight: bold;
+  padding: 25px 10px;
+}
+
+.buy:hover {
+  color: white;
+  background-color: orangered;
 }
 
 .images {
@@ -48,8 +84,11 @@ select :first-child {
 }
 
 section > img {
-  width: 400px;
-  height: 400px;
+  width: 450px;
+  height: 500px;
   border-radius: 10%;
-  gap: 3rem;
+}
+
+nav {
+  border-bottom: 1px solid grey;
 }
