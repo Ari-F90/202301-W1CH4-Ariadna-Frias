@@ -25,7 +25,7 @@ nav > section {
 
 li {
   list-style: none;
-  font-weight: bold;
+  font-weight: 800;
 }
 
 li:hover {
@@ -69,21 +69,18 @@ select :first-child {
   background-color: orangered;
 }
 
-section > div {
-  font-weight: bold;
-}
-
 .pet {
   color: orangered;
   position: relative;
   margin-top: 50px;
-  font-size: bold;
+  font-weight: bold;
 }
 
 .images {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 section > img {
@@ -100,6 +97,7 @@ nav {
 .closer-look {
   padding: 10px;
   font-size: 4rem;
+  font-weight: bold;
 }
 
 .take-view {
@@ -108,23 +106,25 @@ nav {
 }
 
 .view {
-  border-radius: 0 50% 50% 50%;
+  border-radius: 0 30% 30% 30%;
   border: 2px solid orangered;
   background-color: orangered;
   width: 140px;
   height: 80px;
   color: white;
-  padding: 20px 20px 10px;
+  padding: 20px 20px;
+  font-weight: bold;
 }
 
 .view:hover {
-  border-radius: 0 50% 50% 50%;
+  border-radius: 0 30% 30% 30%;
   border: 2px solid orangered;
   background-color: white;
   width: 140px;
   height: 80px;
   color: orangered;
-  padding: 20px 20px 10px;
+  padding: 20px 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
+
