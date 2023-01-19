@@ -6,6 +6,50 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+nav > section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
 li {
   list-style: none;
+  font-weight: 8000;
+}
+
+select {
+  // A reset of styles, including removing the default dropdown arrow
+  appearance: none;
+  // Additional resets for further consistency
+  background-color: transparent;
+  border: none;
+  padding: 0 1em 0 0;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+}
+
+select :first-child {
+  display: none;
+}
+
+.buy {
+  border-radius: 50%;
+  border: 2px solid orangered;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+section > img {
+  width: 400px;
+  height: 400px;
+  border-radius: 10%;
+  gap: 3rem;
 }
