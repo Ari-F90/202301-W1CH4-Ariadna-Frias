@@ -10,17 +10,12 @@ body {
 
 nav {
   display: flex;
+  justify-content: space-between;
 }
 
 ul {
   display: flex;
-}
-nav:first-child {
-  flex-flow: flex-start;
-}
-
-nav:second-child {
-  flex-flow: flex-end;
+  justify-content: space-between;
 }
 
 nav > section {
@@ -69,7 +64,7 @@ select :first-child {
   border-radius: 0 50% 50% 50%;
   border: 2px solid orangered;
   font-weight: bold;
-  padding: 25px 10px;
+  padding: 25px;
 }
 
 .buy:hover {
@@ -77,6 +72,16 @@ select :first-child {
   background-color: orangered;
 }
 
+section > div {
+  font-weight: bold;
+}
+
+.pet {
+  color: orangered;
+  position: relative;
+  margin-top: 50px;
+  font-size: bold;
+}
 .images {
   display: flex;
   flex-direction: row;
@@ -87,8 +92,39 @@ section > img {
   width: 450px;
   height: 500px;
   border-radius: 10%;
+  object-fit: cover;
 }
 
 nav {
-  border-bottom: 1px solid grey;
+  border-bottom: 1px ridge grey;
+}
+
+.closer-look {
+  padding: 10px;
+  font-size: 4rem;
+}
+
+.take-view {
+  display: flex;
+  justify-content: space-between;
+}
+
+.view {
+  border-radius: 0 50% 50% 50%;
+  border: 2px solid orangered;
+  background-color: orangered;
+  width: 140px;
+  height: 80px;
+  color: white;
+  padding: 20px 20px 10px;
+}
+
+.view:hover {
+  border-radius: 0 50% 50% 50%;
+  border: 2px solid orangered;
+  background-color: white;
+  width: 140px;
+  height: 80px;
+  color: orangered;
+  padding: 20px 20px 10px;
 }
