@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css2?family=Nunito:wght@200;800&display=swap);
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav > section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+li {
+  list-style: none;
+  font-weight: 800;
+}
+
+li:hover {
+  color: orange;
+}
+
+select:first-child {
+  font-weight: 800;
+}
+
+select:first-child:hover {
+  color: orange;
+}
+
+select {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  padding: 0 1em 0 0;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+}
+
+select :first-child {
+  display: none;
+}
+
+.buy {
+  border-radius: 0 50% 50% 50%;
+  border: 2px solid orangered;
+  font-weight: bold;
+  padding: 25px;
+}
+
+.buy:hover {
+  color: white;
+  background-color: orangered;
+}
+
+.pet {
+  color: orangered;
+  position: relative;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+section > img {
+  width: 450px;
+  height: 500px;
+  border-radius: 10%;
+  object-fit: cover;
+}
+
+nav {
+  border-bottom: 1px ridge grey;
+}
+
+.closer-look {
+  padding: 10px;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.take-view {
+  display: flex;
+  justify-content: space-between;
+}
+
+.view {
+  border-radius: 0 30% 30% 30%;
+  border: 2px solid orangered;
+  background-color: orangered;
+  width: 140px;
+  height: 80px;
+  color: white;
+  padding: 20px 20px;
+  font-weight: bold;
+}
+
+.view:hover {
+  border-radius: 0 30% 30% 30%;
+  border: 2px solid orangered;
+  background-color: white;
+  width: 140px;
+  height: 80px;
+  color: orangered;
+  padding: 20px 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
+
